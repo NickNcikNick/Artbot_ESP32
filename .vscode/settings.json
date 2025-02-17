@@ -1,0 +1,20 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.espIdfPathWin": "C:\\Users\\NickA\\esp\\v5.3.1\\esp-idf",
+    "idf.toolsPathWin": "C:\\Users\\NickA\\.espressif",
+    "idf.openOcdConfigs": [
+        "interface/ftdi/esp32_devkitj_v1.cfg",
+        "target/esp32s3.cfg"
+    ],
+    "idf.portWin": "COM5",
+    "idf.flashType": "UART",
+    "files.associations": {
+        "esp_http_server.h": "c",
+        "sstream": "c",
+        "regex": "c",
+        "sd_pwr_ctrl_by_on_chip_ldo.h": "c",
+        "freertos.h": "c",
+        "task.h": "c",
+        "sd_test_io.h": "c"
+    }
+}
