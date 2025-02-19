@@ -1,4 +1,4 @@
-idf_component_register(SRCS "sd_test_io.c" "http_post.c" "wifi_ap.c" "sd_card.c" "artbot_main.c" "websocket.c"
+idf_component_register(SRCS "http_post.c" "wifi_ap.c" "sd_card.c" "artbot_main.c" "websocket.c"
                     INCLUDE_DIRS "."
                     REQUIRES json vfs esp_http_server esp_wifi nvs_flash log fatfs sd_card
                     WHOLE_ARCHIVE)
