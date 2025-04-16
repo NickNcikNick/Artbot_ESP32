@@ -1,6 +1,6 @@
 /* Automatically generated file; DO NOT EDIT */
 /* Espressif IoT Development Framework Linker Script */
-/* Generated from: D:\Self\Code\EEDesign\ESP\S3\S3_Artbot_Main\ESP32_Artbot\build\esp-idf\esp_system\ld\sections.ld.in */
+/* Generated from: D:\Self\Code\GitHub\Artbot_ESP32\build\esp-idf\esp_system\ld\sections.ld.in */
 
 /*
 

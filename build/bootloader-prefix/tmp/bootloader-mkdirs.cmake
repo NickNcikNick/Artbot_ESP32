@@ -5,18 +5,18 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "C:/Users/NickA/esp/v5.3.1/esp-idf/components/bootloader/subproject"
-  "D:/Self/Code/EEDesign/ESP/S3/S3_Artbot_Main/ESP32_Artbot/build/bootloader"
-  "D:/Self/Code/EEDesign/ESP/S3/S3_Artbot_Main/ESP32_Artbot/build/bootloader-prefix"
-  "D:/Self/Code/EEDesign/ESP/S3/S3_Artbot_Main/ESP32_Artbot/build/bootloader-prefix/tmp"
-  "D:/Self/Code/EEDesign/ESP/S3/S3_Artbot_Main/ESP32_Artbot/build/bootloader-prefix/src/bootloader-stamp"
-  "D:/Self/Code/EEDesign/ESP/S3/S3_Artbot_Main/ESP32_Artbot/build/bootloader-prefix/src"
-  "D:/Self/Code/EEDesign/ESP/S3/S3_Artbot_Main/ESP32_Artbot/build/bootloader-prefix/src/bootloader-stamp"
+  "D:/Self/Code/GitHub/Artbot_ESP32/build/bootloader"
+  "D:/Self/Code/GitHub/Artbot_ESP32/build/bootloader-prefix"
+  "D:/Self/Code/GitHub/Artbot_ESP32/build/bootloader-prefix/tmp"
+  "D:/Self/Code/GitHub/Artbot_ESP32/build/bootloader-prefix/src/bootloader-stamp"
+  "D:/Self/Code/GitHub/Artbot_ESP32/build/bootloader-prefix/src"
+  "D:/Self/Code/GitHub/Artbot_ESP32/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "D:/Self/Code/EEDesign/ESP/S3/S3_Artbot_Main/ESP32_Artbot/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "D:/Self/Code/GitHub/Artbot_ESP32/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "D:/Self/Code/EEDesign/ESP/S3/S3_Artbot_Main/ESP32_Artbot/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "D:/Self/Code/GitHub/Artbot_ESP32/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

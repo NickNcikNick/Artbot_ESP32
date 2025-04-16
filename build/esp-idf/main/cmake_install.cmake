@@ -1,4 +1,4 @@
-# Install script for directory: D:/Self/Code/EEDesign/ESP/S3/S3_Artbot_Main/ESP32_Artbot/main
+# Install script for directory: D:/Self/Code/GitHub/Artbot_ESP32/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

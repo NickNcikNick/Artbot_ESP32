@@ -33,6 +33,9 @@ $<TARGET_FILE:__idf_http_parser>
 $<TARGET_FILE:__idf_esp_event>
 $<TARGET_FILE:__idf_lwip>
 $<TARGET_FILE:__idf_esp_http_server>
+$<TARGET_FILE:__idf_esp-tls>
+$<TARGET_FILE:__idf_tcp_transport>
+$<TARGET_FILE:__idf_esp_http_client>
 $<TARGET_FILE:__idf_nvs_flash>
 $<TARGET_FILE:__idf_esp_driver_pcnt>
 $<TARGET_FILE:__idf_esp_driver_gptimer>
