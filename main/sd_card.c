@@ -105,7 +105,7 @@ esp_err_t sd_card_initialize(void)
 #else
         .format_if_mount_failed = false,
 #endif // EXAMPLE_FORMAT_IF_MOUNT_FAILED
-        .max_files = 5,
+        .max_files = 15,
         .allocation_unit_size = 16 * 1024
     };
     sdmmc_card_t *card;
