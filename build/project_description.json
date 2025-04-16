@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "ESP32_Artbot",
-    "project_version":    "5a744ee-dirty",
+    "project_version":    "a358758-dirty",
     "project_path":       "D:/Self/Code/GitHub/Artbot_ESP32",
     "idf_path":           "C:/Users/NickA/esp/v5.3.1/esp-idf",
     "build_dir":          "D:/Self/Code/GitHub/Artbot_ESP32/build",
